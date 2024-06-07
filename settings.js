@@ -8,11 +8,17 @@ const settings = [
 ];  
 const articleContents = [  
     {  
-        title: "Ubuntu 24.04",  
-        content: "[img](https://assets.ubuntu.com/v1/3b5fa561-mascot-numbat@2x.png)[endl]下载专为桌面PC和笔记本精心打造的Ubuntu长期支持(LTS)版本。 [endl]LTS版本将提供免费安全和维护更新至2029年4月。点击[downlink]按钮下载。",  
-        download_link: "https://releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso" // 下载链接
-    }  
+        title: "Windows 10",  
+        content: "现代Windows的起源",  
+        download_link: "https://www.microsoft.com/zh-cn/software-download/windows10" // 下载链接
+    },
+    {
+        title: "Windows 8.1",
+        content: "历代Windows扁平化的开端",
+        download_link: "https://www.microsoft.com/zh-cn/software-download/windows8ISO"
+    }
 ];  
+
 /*
 假设我有2个系统，Windows Vienna Windows 10精简版
 则需要定义articleContents方括号里面的内容。
